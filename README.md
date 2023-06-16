@@ -15,3 +15,22 @@ There are 10 different plant types:
 10. Tobacco
 
 ## How to Run
+# Thrift Hunter's Machine Learning Model
+
+Dataset URL : https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl  
+This dataset has 6 classes : 
+- hoodies
+- hoodies-female
+- longsleeve
+- shirt
+- sweatshirt
+- sweatshirt-female
+
+## How to Run
+1. Download the `[TF]_Casptone_Project_Plant_Type_Classifier_with_Transfer_Learning.ipynb` file 
+2. Open the [Google Colab](https://colab.research.google.com/)
+3. Upload the `.ipynb` file that you have downloaded in the first step to your Google Colab
+5. Connect to your Google Colab
+6. Download the `.h5` [model](https://drive.google.com/file/d/1-QPVWgbdibqHQWmQrjGaSBdozJiS6gRs/view?usp=sharing) or just make a copy/shortcut to your Google Drive.
+7. Customize the `load.model` path.
+8. Click "Runtime" on the toolbar and click "Run all"
